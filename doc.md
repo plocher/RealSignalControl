@@ -24,7 +24,7 @@ DARK signals (burnt out lamps) are more restrictive than steady-on ones, and
 steady-on ones are more restrictive than blinking ones:
   - DARK signals mean STOP and contact dispatcher for instructions
   - STEADY RED means stop and wait,
-  - BLINKING READ means STOP and proceed slowly
+  - BLINKING RED means STOP and proceed slowly
 OOPS!  A malfunctioning LED signal like this will actually fail /LESS/ safely
 
 Cause: LEDs are voltage-activated, current driven devices.  They stay off (don't conduct) until a
