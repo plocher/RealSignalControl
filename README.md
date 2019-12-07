@@ -15,18 +15,13 @@ under load, and it's output voltage was just above that needed to turn on the LE
 behaviors would happen:
 
   1. OK - the steady state current capacity of the PS was sufficient to the load:
-
-    * The LED lamp would turn on bright and stay on.
-
+  * The LED lamp would turn on bright and stay on.
   2. Marginal - the current sourcing was less than that consumed by the LED lamp, but the regulation was sufficient
    to keep the voltage from dropping:
-
-    * The LED lamp would light brightly, quickly dim and stay on at a dim level.  This can often be seen in the orange
+  * The LED lamp would light brightly, quickly dim and stay on at a dim level.  This can often be seen in the orange
       "Don't Walk" pedestrian traffic crosswalk signals if you know what to look for...
-
   3. Failure - the regulation can't keep the voltage high enough, such as in a discharging battery:
-
-    * The lamp would light bright, quickly dim and then go out, and when the power supply recovered,
+  * The lamp would light bright, quickly dim and then go out, and when the power supply recovered,
       the lamp would turn back on and repeat the cycle, producing a blinking light pattern at 1/2 to 2 Hz
 
 This is a concern because railroad signals are supposed to be part of a FAIL SAFE system.
